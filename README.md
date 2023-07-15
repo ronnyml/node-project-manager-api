@@ -8,3 +8,9 @@ Project Manager API
 ```sh
 npm install
 ```
+
+## Run the API
+
+```sh
+npm run dev
+```
