@@ -1,8 +1,6 @@
 import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 import projectRouter from './routers/project';
-import dotenv from 'dotenv';
-dotenv.config();
 
 const app: Express = express();
 app.use(cors());
